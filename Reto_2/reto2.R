@@ -1,5 +1,4 @@
 library(gridBezier)
-require(grid)
 library(grid)
 
 x = BezierGrob(c(.5,.1,.1,.4),c(1.5,1.5,1,1),
@@ -290,8 +289,8 @@ plot3d(x10,y10,z10, type="p", xlim=c(0,1000),ylim=c(0,1000),zlim=c(0,1000),col =
 plot3d(x10,y10,z10, type="l", xlim=c(0,1000),ylim=c(0,1000),zlim=c(0,1000),col = "purple")
 
 
-
-
+#x
+#pts10
 
 
 
